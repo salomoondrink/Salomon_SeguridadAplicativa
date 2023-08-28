@@ -1,0 +1,29 @@
+Ejercicio1
+
+result[100]
+i=1
+for (i=1;i++;i<=100:
+	if (result[i]/3)==0 and (result[i]/5)==0):
+	print("fizzbuzz")
+	elseif(result[i]/5)==0:
+	print("buzz")
+	elseif(result[i]/3)==0:
+	print("fizz")
+	elseif:
+  result[i]=i
+  print(result[i])
+end
+
+
+
+Ejercicio2
+
+
+
+for (x=1;x++;x<=10)
+	for (y=1;y++;y<=10)
+		res=x*y
+		print (res)
+  end
+end
+
