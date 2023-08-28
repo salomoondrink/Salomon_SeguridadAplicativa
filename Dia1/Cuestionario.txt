@@ -1,0 +1,65 @@
+-¿Que es una red?
+Es el conjunto de diferentes dispositivos compartiendo informacion
+
+-¿Que es el modelo TCP/IP?
+Un protocolo para parametrizar la forma de compartir informacion en diferentes redes, en este protocolo se establecen reglas para establecer la comunicacion en la red.
+
+-¿Que es una IP?
+Es la direccion con la cual un dispositivo se conecta a una red
+
+-¿Que es el protocolo TCP?
+Es el protocolo que se encarga de la comunicacion punto a punto en una red. 
+
+-Dentro del protocolo TCP ¿Que es el protocolo HTTP?
+Es el protocolo que permite el envio de informacion en texto plano, sin cifrar. 
+
+-Puerto del protocolo http
+80
+
+-Puerto del protocolo https
+443
+
+
+-Cual es la diferencia entre http y https?
+El protocolo https mantiene la informacion cifrada, mientras que el http no
+
+-¿Que significa el modelo cliente servidor?
+Significa que un equipo puede conectarse y compartir informacion con diferentes dentro de la red, el usuario es el que envia la informacion al servidor y este puede reenviarla, almacenarla, entre otras.
+
+-¿Que es una peticion en HTTP?
+Es cuando un usuario realiza un query para extraer, agregar, modificar informacion de una base de datos dentro de una red. 
+
+-¿Que es una response?
+Es la informacion que regresa el servidor cuando se hizo una peticion, esta puede llevar informacion de la base de datos o simplemente puede ser un ACK, comprobando que se realizo la comunicacion correctamente.
+
+-Secciones de una peticion.
+Host, content.  
+
+-Secciones de una response
+Date, server, content, status 
+
+-El codigo de respuesta 404 y 500 a que se refiere.
+404. Es un codigo de error
+500. 
+
+-Lenguajes de programacion para el Back
+Java
+Python
+HTTML
+PHP
+-Lenguajes de programacion para el front
+HSS
+CSS
+Javascript
+Typescript
+React
+
+-Que es BurpSuite?
+Es una aplicacion que permite interceptar Y manipular paquetes dentro de la comunicacion HTTPS
+
+
+
+
+
+
+
