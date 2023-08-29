@@ -1,0 +1,5 @@
+nano agregar.sh
+sudo adduser  $1
+chmod +x agregar.sh
+./agregar.sh salomon
+cat/etc/passwd
