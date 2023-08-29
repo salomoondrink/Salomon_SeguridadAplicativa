@@ -1,4 +1,4 @@
 nano act2.sh
-sudo useradd -d /home/$1 -p password -s /bin/zsh -c act2 $1
+sudo useradd -m -d /home/$1 -p password -s /bin/zsh -c act2 $1
 chmod +x act2.sh 
 ./ act2.sh pepe
