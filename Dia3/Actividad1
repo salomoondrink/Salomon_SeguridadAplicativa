@@ -1,0 +1,7 @@
+
+An="Ana"
+
+if(An[::].lower() == An[::-1].lower()):
+    print("Es palindromo")
+else:
+    print("NO es palindromo")
