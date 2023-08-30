@@ -1,0 +1,43 @@
+aspirantes={
+    "Juan":8,
+    "Giselle":9,
+    "Damian":5,
+    "Ricardo":6,
+    "Yaotzin":6,
+    "Erick":7,
+    "Mario":8,
+    "Edgar":9,
+    "Fernanda":5,
+    "Daniel":6,
+    "Jesus":7,
+    "Damian":8,
+    "Yema":6,
+    "Eduardo":9,
+    "Bryan":9,
+    "Mariano":10,
+    "Alberto":8
+}
+
+def promedio():
+    x=0
+    cont=0
+    for alu in aspirantes:
+        x=x+int(aspirantes[alu])
+        cont=cont+1
+    return x/len(aspirantes)
+        
+
+def mayor():
+   for alu in aspirantes:
+       if(int(aspirantes[alu])==10):
+           print("ALumno con mayor calificacion:" ,alu)
+
+
+def menor():
+    for alu in aspirantes:
+        if(aspirantes[alu]==5):
+            print("ALumno con menor calificacion:",alu)
+
+print(promedio())
+mayor()
+menor()
