@@ -4,12 +4,13 @@ a=[8,9,10,6,6,7,8,
    9,9]
 
 
+
 def promedio(a):
     suma=0
     for num in a:
         suma=suma+num
     prom=suma/len(a)
-    print(prom)
+    print("EL promedio es",prom)
 
 
 def reprobaron(a):
@@ -17,9 +18,11 @@ def reprobaron(a):
     for rep in a:
         if(rep<=5):
            x=x+1
-    print(x)
+    print("Los alumnos reprobados son",x)
             
 
 
 promedio(a)
 reprobaron(a) 
+    
+
