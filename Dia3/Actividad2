@@ -1,0 +1,56 @@
+
+def suma(param1,param2): return param1+param2
+
+def resta(param1,param2):return param1-param2
+
+def multiplicacion (param1,param2): return param1*param2
+
+def division (param1,param2): return param1/param2
+
+valor=1
+while (valor !=5): 
+    
+    
+ print("Que opcion desea")
+ print("1.Suma")
+ print("2.Resta")
+ print("3.Multiplicacion")
+ print("4.DIvision")
+ print("5.SAlir")
+ valor=int(input())
+
+ if (valor==1):
+    print("Suma")
+    print("Ingresa el valor a sumar")
+    a=int(input())
+    print("Ingresa el segundo valor a sumar")
+    b=int(input())
+    res=suma(a,b)
+    print("La suma es ", res)
+    
+ elif(valor==2):
+    print("Resta")
+    print("Ingresa el valor a restar")
+    a=int(input())
+    print("Ingresa el segundo valor a restar")
+    b=int(input())
+    res=resta(a,b)
+    print("La resta es ", res)
+ elif (valor==3):
+    print ("MUltiplicacion")
+    print("Ingresa el valor a multiplicar")
+    a=int(input())
+    print("Ingresa el segundo valor a multiplicar")
+    b=int(input())
+    res=multiplicacion(a,b)
+    print("La multiplicacion es ", res)
+ elif (valor==4):
+    print("division")
+    print("Ingresa el valor a dividir")
+    a=int(input())
+    print("Ingresa el segundo valor a dividir")
+    b=int(input())
+    res=division(a,b)
+    print("La division2 es ", res)
+    
+
